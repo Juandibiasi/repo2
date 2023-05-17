@@ -1,0 +1,400 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+body {
+  background-image: url(../Imagenes/25865441-fondo-de-la-textura-de-cuero-beige-claro-con-dibujos-de-imitación.webp);
+  overflow-y: hidden;
+  background-attachment: fixed;
+  position: sticky;
+  top: 0;
+}
+
+.contador {
+  background-color: #D9D7C1;
+  color: red;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.h-video {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.h-video video {
+  width: 60%;
+}
+
+h2 {
+  color: #D9B07E;
+  text-shadow: 1px 1px 1px black;
+  font-size: 3.5rem;
+  margin: auto;
+  width: 80%;
+  margin-top: 20px;
+  overflow-y: hidden;
+}
+
+.Frase-motivacional {
+  text-align: center;
+  font-size: 2rem;
+  background-color: #261806;
+  width: 80%;
+  margin: auto;
+  color: #D9D7C1;
+  border-radius: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.accordion {
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+}
+.accordion .accordion-item .accordion-header button {
+  color: #261806;
+  font-size: 2.5rem;
+  background-color: #D9D7C1;
+}
+.accordion .accordion-item div {
+  background-color: #D9D7C1;
+}
+.accordion .accordion-item div div p {
+  margin-top: 10px;
+  color: #261806;
+}
+.accordion .accordion-item div .accordion-body {
+  font-size: 1.6rem;
+}
+.accordion .accordion-item div .accordion-body p {
+  color: #261806;
+}
+.accordion .accordion-item div .accordion-body p .first-line {
+  color: #D9B07E;
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+.accordion .accordion-item div .imagen-certificado {
+  width: 90%;
+  margin: auto;
+}
+
+.h1-index {
+  background-color: rgba(128, 128, 128, 0.3);
+  text-align: center;
+  font-weight: 500;
+  color: #261806;
+  font-size: 5.2rem;
+  text-shadow: 2px 2px 2px #000;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.h1-index span {
+  color: #D9B07E;
+}
+
+.carrousel-box {
+  background-color: rgba(128, 128, 128, 0.3);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.carrousel-box .carousel {
+  width: 68%;
+  margin: auto;
+}
+
+.certificados {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 65%;
+  margin: auto;
+  background-color: #D9D7C1;
+}
+.certificados .garantia {
+  width: 30%;
+}
+.certificados .compra-segura {
+  width: 40%;
+}
+
+.h4-recomendaciones {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 3.5rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  overflow-y: hidden;
+  color: #261806;
+}
+
+.figuras {
+  background-color: #D9B07E;
+  padding: 20px 20px 20px 20px;
+}
+.figuras figcaption {
+  color: #261806;
+  font-size: 1.4rem;
+}
+.figuras .banderas img {
+  width: 8%;
+  margin-top: 15px;
+}
+.figuras .banderas p {
+  display: inline-flex;
+  color: #261806;
+  font-size: 1.6rem;
+  margin-left: 15px;
+}
+
+.h2-preguntas {
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.accordion-preguntas {
+  width: 70%;
+}
+
+.div-pago {
+  display: flex;
+  width: 70%;
+  background-color: #261806;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.div-pago h4 {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 3.5rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  overflow-y: hidden;
+  color: #D9B07E;
+}
+.div-pago .boton-pago {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.div-pago .boton-pago p {
+  font-size: 2rem;
+  width: 80%;
+  margin: auto;
+  color: #D9D7C1;
+  margin-top: 15px;
+}
+.div-pago .boton-pago .inscribirme-btn {
+  width: 35%;
+  background-color: orangered;
+  color: #261806;
+  border-color: #D9D7C1;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 3rem;
+}
+
+.botonera {
+  background-color: #261806;
+  margin-top: -20px;
+}
+.botonera img {
+  width: 180px;
+  margin-bottom: -20px;
+  display: block;
+}
+.botonera .navbar-brand {
+  overflow: hidden;
+}
+.botonera li a {
+  color: #D9D7C1;
+  font-size: 2rem;
+  margin-right: 20px;
+  padding-top: 20px;
+}
+
+.container-fluid button span {
+  background-color: #D9D7C1;
+}
+
+.navbar-toggler {
+  background-color: #D9D7C1;
+}
+
+.navbar-toggler-icon {
+  color: #D9D7C1;
+}
+
+.custom-toggler {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #D9B07E;
+  font-size: 2rem;
+}
+.custom-toggler:focus {
+  outline: none;
+}
+.custom-toggler-icon {
+  display: none;
+}
+.custom-toggler:before {
+  content: "☰";
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .div-pago {
+    display: flex;
+    width: 90%;
+    background-color: #261806;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .div-pago h4 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    overflow-y: hidden;
+    color: #D9B07E;
+  }
+  .div-pago .boton-pago {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .div-pago .boton-pago p {
+    font-size: 1.8rem;
+    width: 80%;
+    margin: auto;
+    color: #D9D7C1;
+    margin-top: 15px;
+  }
+  .div-pago .boton-pago .inscribirme-btn {
+    width: 35%;
+    background-color: orangered;
+    color: #261806;
+    border-color: #D9D7C1;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 2rem;
+  }
+}
+@media (width < 1100px) {
+  .Frase-motivacional {
+    font-size: 1.8rem;
+    width: 85%;
+  }
+}
+@media (width < 768px) {
+  .h-video video {
+    width: 75%;
+  }
+  .h1-index {
+    font-size: 3rem;
+  }
+  .Frase-motivacional {
+    font-size: 1.6rem;
+    width: 90%;
+  }
+  .certificados {
+    flex-direction: column;
+  }
+  .certificados .garantia {
+    width: 70%;
+    margin-top: -20px;
+  }
+  .certificados .compra-segura {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  .carrousel-box .carousel {
+    width: 80%;
+  }
+  .figuras {
+    width: 80%;
+    margin: 10px auto;
+  }
+  .div-pago {
+    flex-direction: column;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .div-pago h4 {
+    width: 90%;
+    font-size: 3.5rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .div-pago .boton-pago {
+    flex-direction: column;
+  }
+  .div-pago .boton-pago p {
+    font-size: 1.8rem;
+    width: 95%;
+    margin-top: 15px;
+  }
+  .div-pago .boton-pago .inscribirme-btn {
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: 2.5rem;
+  }
+}
+@media (width < 450px) {
+  .h-video video {
+    width: 90%;
+  }
+}
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #261806;
+  padding-top: 6px;
+  padding-bottom: 5px;
+}
+footer a {
+  text-decoration: none;
+  text-overflow: clip;
+}
+footer svg {
+  width: 30px;
+  fill: #D9D7C1;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */

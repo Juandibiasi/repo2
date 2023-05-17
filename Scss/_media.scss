@@ -1,0 +1,126 @@
+@media (min-width: 768px) and (max-width: 1200px){
+    .div-pago{
+        display: flex;
+        width: 90%;
+        background-color: $mainColor;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        h4{
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            font-size: $textLg;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            overflow-y: hidden;
+            color: $secondaryColor;
+        }
+        .boton-pago {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+          
+            p {
+              font-size: $textSm1;
+              width: 80%;
+              margin: auto;
+              color: $keyColor;
+              margin-top: 15px;
+            }
+          
+            .inscribirme-btn {
+              width: 35%;
+              background-color: orangered;
+              color: $mainColor;
+              border-color: $keyColor;
+              margin-top: 10px;
+              margin-bottom: 15px;
+              font-size: $textMd;
+            }
+          }
+    }
+}
+@media (width < 1100px) {
+    .Frase-motivacional{
+        font-size: $textSm1;
+        width: 85%;
+    }
+    
+}
+@media (width < 768px) {
+    .h-video{
+        video{
+            width: 75%;
+        }
+    }
+    .h1-index{
+        font-size: $textLg;
+    }
+    .Frase-motivacional{
+        font-size: $textSm;
+        width: 90%;
+    }
+    .certificados{
+        flex-direction: column;
+        
+        .garantia{
+            width: 70%;
+            margin-top: -20px;
+        }
+        .compra-segura{
+            width: 70%;
+            margin-bottom: 20px;
+        }
+    }
+    .carrousel-box{
+        .carousel{
+            width: 80%;
+    
+        }
+    }
+    .figuras{
+        width: 80%;
+        margin: 10px auto;
+
+    }
+
+    .div-pago{
+    flex-direction: column;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    h4{
+        width: 90%;
+        font-size: $textLg-1;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .boton-pago {
+        flex-direction: column;
+        p {
+          font-size: $textSm1;
+          width: 95%;
+          margin-top: 15px;
+        }
+      
+        .inscribirme-btn {
+          width: 60%;
+          margin-top: 20px;
+          margin-bottom: 35px;
+          font-size: $textMd1;
+        }
+      }
+      
+}
+
+}
+@media (width < 450px) {
+    .h-video{
+        video{
+            width: 90%;
+        }
+    }
+}

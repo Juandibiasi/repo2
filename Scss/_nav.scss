@@ -1,0 +1,51 @@
+.botonera {
+    background-color: $mainColor;
+    margin-top: -20px;
+    img {
+      width: 180px;
+      margin-bottom: -20px;
+      display: block;
+    }
+    .navbar-brand {
+      overflow: hidden;
+    }
+    li {
+      a {
+        color: $keyColor; 
+        font-size: 2rem;  
+        margin-right: 20px;
+        padding-top: 20px;
+      }
+    }
+  }
+    
+.container-fluid button span{
+    background-color: $keyColor;
+}
+.navbar-toggler {
+    background-color: $keyColor;
+}
+.navbar-toggler-icon {
+    color: $keyColor;
+}
+
+.custom-toggler {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: $secondaryColor;
+    font-size: 2rem;
+    
+    &:focus {
+    outline: none;
+    }
+    
+    &-icon {
+    display: none;
+    }
+    
+    &:before {
+    content: '\2630';
+    font-size: 2rem;
+    }
+    }
