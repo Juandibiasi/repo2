@@ -408,6 +408,9 @@ h2 {
     margin-bottom: 35px;
     font-size: 2rem;
   }
+  .h4-recomendaciones {
+    font-size: 2.5rem;
+  }
 }
 * {
   font-family: "Poppins", sans-serif;
