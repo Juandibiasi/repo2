@@ -369,6 +369,46 @@ h2 {
     width: 90%;
   }
 }
+@media (width < 320px) {
+  .h-video video {
+    width: 95%;
+  }
+  .h1-index {
+    font-size: 3rem;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .Frase-motivacional {
+    font-size: 1.4rem;
+  }
+  .certificados {
+    width: 80%;
+  }
+  .div-pago {
+    flex-direction: column;
+    width: 80%;
+  }
+  .div-pago h4 {
+    width: 90%;
+    font-size: 3rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .div-pago .boton-pago {
+    flex-direction: column;
+  }
+  .div-pago .boton-pago p {
+    font-size: 1.6rem;
+    width: 95%;
+    margin-top: 15px;
+  }
+  .div-pago .boton-pago .inscribirme-btn {
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: 2rem;
+  }
+}
 * {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
