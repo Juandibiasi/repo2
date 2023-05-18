@@ -48,18 +48,6 @@
         font-size: $textSm1;
         width: 85%;
     }
-    .h-video {
-     
-        .video-container{
-            video {
-              }
-            
-              button#toggleSonido {
-                  width: 25%;
-                
-              }
-        }
-    }
     
 }
 @media (width < 768px) {
@@ -133,18 +121,6 @@
     .h-video{
         video{
             width: 90%;
-        }
-    }
-    .h-video {
-     
-        .video-container{
-            video {
-              }
-            
-              button#toggleSonido {
-                  width: 45%;
-                
-              }
         }
     }
 }

@@ -24,30 +24,13 @@ body {
 
 .h-video {
   background-color: #000;
+  display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   margin-top: 10px;
 }
-.h-video .video-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.h-video .video-container video {
-  z-index: 1;
-  width: 70%;
-  margin: auto;
-}
-.h-video .video-container button#toggleSonido {
-  width: 10%;
-  margin-top: -20px;
-  z-index: 2;
-  color: #D9D7C1;
-  background-color: #261806;
-  border-radius: 10px;
-  /* Agrega aquí los estilos adicionales que desees para el botón */
+.h-video video {
+  width: 60%;
 }
 
 h2 {
@@ -324,9 +307,6 @@ h2 {
     font-size: 1.8rem;
     width: 85%;
   }
-  .h-video .video-container button#toggleSonido {
-    width: 25%;
-  }
 }
 @media (width < 768px) {
   .h-video video {
@@ -387,9 +367,6 @@ h2 {
 @media (width < 450px) {
   .h-video video {
     width: 90%;
-  }
-  .h-video .video-container button#toggleSonido {
-    width: 45%;
   }
 }
 @media (width < 320px) {
