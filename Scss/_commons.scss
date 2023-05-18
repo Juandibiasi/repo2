@@ -20,16 +20,47 @@ body{
     z-index: 1000;
 }
 
-.h-video{
+// .h-video{
+//     background-color: #000;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     margin-top: 10px;
+//     video{
+//         width: 60%;
+//     }
+// }
+
+.h-video {
     background-color: #000;
-    display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin-top: 10px;
-    video{
-        width: 60%;
+ 
+    .video-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        video {
+            z-index: 1;
+            width: 70%;
+            margin: auto;
+          }
+        
+          button#toggleSonido {
+              width: 10%;
+              margin-top: -20px;
+              z-index: 2;
+              color: $keyColor;
+              background-color: $mainColor;
+              border-radius: 10px;
+            /* Agrega aquí los estilos adicionales que desees para el botón */
+          }
     }
 }
+  
 
 h2{
     color: $secondaryColor;
@@ -218,6 +249,8 @@ h2{
         }
       }
 }
+
+
 
 
   

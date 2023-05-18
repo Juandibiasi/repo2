@@ -43,6 +43,11 @@ function mostrarSeccion(id) {
   seccion.classList.add('show');
 }
 
+function toggleSonido() {
+  var video = document.getElementById('miVideo');
+  video.muted = !video.muted;
+}
+
 
 
 
