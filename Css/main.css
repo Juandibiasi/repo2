@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
 body {
-  background-image: url(../Imagenes/25865441-fondo-de-la-textura-de-cuero-beige-claro-con-dibujos-de-imitación.webp);
+  background-color: #E8E6DA;
   overflow-y: hidden;
   background-attachment: fixed;
   position: sticky;
@@ -27,10 +27,85 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
 }
 .h-video video {
   width: 60%;
+}
+
+.cajas {
+  color: #261806;
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+
+.qa {
+  overflow-y: hidden;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+}
+.qa div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.qa div div {
+  flex-direction: row;
+  align-items: center;
+}
+.qa div div .check {
+  width: 30px;
+  color: #D9B07E;
+  align-self: flex-start;
+  margin-right: 0.5rem;
+}
+.qa div div p {
+  width: 90%;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.cajas-1 {
+  margin-top: 25px;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #261806;
+}
+.cajas-1 span {
+  color: #D9B07E;
+}
+
+.container figure img {
+  width: 80%;
+}
+.container figure .nombre-fig {
+  color: #261806;
+  margin-top: 5px;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.container figure .description {
+  color: #D9B07E;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.container figure .precio-tachado {
+  text-decoration: line-through;
+  color: #261806;
+  font-size: 1.4rem;
+  margin-top: -8px;
+}
+.container figure .precio-descuento {
+  color: #261806;
+  font-size: 1.4rem;
+  margin-top: -10px;
+}
+
+.materiales {
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
 }
 
 h2 {
@@ -43,22 +118,9 @@ h2 {
   overflow-y: hidden;
 }
 
-.Frase-motivacional {
-  text-align: center;
-  font-size: 2rem;
-  background-color: #261806;
-  width: 80%;
-  margin: auto;
-  color: #D9D7C1;
-  border-radius: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
 .accordion {
   width: 80%;
   margin: auto;
-  border-radius: 10px;
 }
 .accordion .accordion-item .accordion-header button {
   color: #261806;
@@ -71,6 +133,11 @@ h2 {
 .accordion .accordion-item div div p {
   margin-top: 10px;
   color: #261806;
+}
+.accordion .accordion-item div div p span {
+  color: #261806;
+  font-weight: bold;
+  text-decoration: underline;
 }
 .accordion .accordion-item div .accordion-body {
   font-size: 1.6rem;
@@ -88,16 +155,16 @@ h2 {
 }
 
 .h1-index {
-  background-color: rgba(128, 128, 128, 0.3);
+  background-color: #E8E6DA;
   text-align: center;
-  font-weight: 500;
+  font-weight: 700;
   color: #261806;
-  font-size: 5.2rem;
-  text-shadow: 2px 2px 2px #000;
-  margin-top: 10px;
-  margin-bottom: 5px;
+  font-size: 4.2rem;
+  margin-bottom: 0px;
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 .h1-index span {
   color: #D9B07E;
@@ -224,7 +291,7 @@ h2 {
 }
 .botonera li a {
   color: #D9D7C1;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-right: 20px;
   padding-top: 20px;
 }
@@ -306,6 +373,52 @@ h2 {
   .Frase-motivacional {
     font-size: 1.8rem;
     width: 85%;
+  }
+}
+@media (width > 768px) {
+  .qa {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .qa div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  .qa div div {
+    flex-direction: row;
+    width: 40%;
+    flex-wrap: nowrap;
+    margin: auto;
+    margin-top: 15px;
+    justify-content: center;
+  }
+  .qa div div .check {
+    width: 45px;
+    color: #D9B07E;
+    align-self: flex-start;
+    margin-right: 0.5rem;
+  }
+  .qa div div p {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  .container figure img {
+    width: 80%;
+  }
+  .container figure .nombre-fig {
+    color: #261806;
+    margin-top: 5px;
+    font-size: 1.6rem;
+  }
+  .container figure .description {
+    color: #D9B07E;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
   }
 }
 @media (width < 768px) {
