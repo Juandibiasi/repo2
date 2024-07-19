@@ -33,7 +33,7 @@ body {
 }
 
 .cajas {
-  color: #261806;
+  color: rgb(38, 24, 6);
   font-size: 2.5rem;
   margin-top: 20px;
 }
@@ -69,7 +69,7 @@ body {
   margin-top: 25px;
   font-size: 2.5rem;
   margin-bottom: 20px;
-  color: #261806;
+  color: rgb(38, 24, 6);
 }
 .cajas-1 span {
   color: #D9B07E;
@@ -79,7 +79,7 @@ body {
   width: 80%;
 }
 .container figure .nombre-fig {
-  color: #261806;
+  color: rgb(38, 24, 6);
   margin-top: 5px;
   font-size: 1.4rem;
   font-weight: 700;
@@ -92,12 +92,12 @@ body {
 }
 .container figure .precio-tachado {
   text-decoration: line-through;
-  color: #261806;
+  color: rgb(38, 24, 6);
   font-size: 1.4rem;
   margin-top: -8px;
 }
 .container figure .precio-descuento {
-  color: #261806;
+  color: rgb(38, 24, 6);
   font-size: 1.4rem;
   margin-top: -10px;
 }
@@ -115,6 +115,7 @@ h2 {
   margin: auto;
   width: 80%;
   margin-top: 20px;
+  margin-bottom: 20px;
   overflow-y: hidden;
 }
 
@@ -123,7 +124,7 @@ h2 {
   margin: auto;
 }
 .accordion .accordion-item .accordion-header button {
-  color: #261806;
+  color: rgb(38, 24, 6);
   font-size: 2.5rem;
   background-color: #D9D7C1;
 }
@@ -132,10 +133,10 @@ h2 {
 }
 .accordion .accordion-item div div p {
   margin-top: 10px;
-  color: #261806;
+  color: rgb(38, 24, 6);
 }
 .accordion .accordion-item div div p span {
-  color: #261806;
+  color: rgb(38, 24, 6);
   font-weight: bold;
   text-decoration: underline;
 }
@@ -143,7 +144,7 @@ h2 {
   font-size: 1.6rem;
 }
 .accordion .accordion-item div .accordion-body p {
-  color: #261806;
+  color: rgb(38, 24, 6);
 }
 .accordion .accordion-item div .accordion-body p .first-line {
   color: #D9B07E;
@@ -158,7 +159,7 @@ h2 {
   background-color: #E8E6DA;
   text-align: center;
   font-weight: 700;
-  color: #261806;
+  color: rgb(38, 24, 6);
   font-size: 4.2rem;
   margin-bottom: 0px;
   padding-top: 20px;
@@ -203,7 +204,7 @@ h2 {
   margin-top: 40px;
   margin-bottom: 20px;
   overflow-y: hidden;
-  color: #261806;
+  color: rgb(38, 24, 6);
 }
 
 .figuras {
@@ -211,7 +212,7 @@ h2 {
   padding: 20px 20px 20px 20px;
 }
 .figuras figcaption {
-  color: #261806;
+  color: rgb(38, 24, 6);
   font-size: 1.4rem;
 }
 .figuras .banderas img {
@@ -220,7 +221,7 @@ h2 {
 }
 .figuras .banderas p {
   display: inline-flex;
-  color: #261806;
+  color: rgb(38, 24, 6);
   font-size: 1.6rem;
   margin-left: 15px;
 }
@@ -238,7 +239,7 @@ h2 {
 .div-pago {
   display: flex;
   width: 70%;
-  background-color: #261806;
+  background-color: rgb(38, 24, 6);
   margin: auto;
   margin-top: 40px;
   margin-bottom: 30px;
@@ -268,17 +269,23 @@ h2 {
   margin-top: 15px;
 }
 .div-pago .boton-pago .inscribirme-btn {
-  width: 35%;
+  width: 50%;
   background-color: orangered;
-  color: #261806;
+  color: rgb(38, 24, 6);
   border-color: #D9D7C1;
   margin-top: 10px;
   margin-bottom: 15px;
-  font-size: 3rem;
+  font-size: 2rem;
+}
+
+.figure-pago {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
 }
 
 .botonera {
-  background-color: #261806;
+  background-color: rgb(38, 24, 6);
   margin-top: -20px;
 }
 .botonera img {
@@ -330,7 +337,7 @@ h2 {
   .div-pago {
     display: flex;
     width: 90%;
-    background-color: #261806;
+    background-color: rgb(38, 24, 6);
     margin: auto;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -362,7 +369,7 @@ h2 {
   .div-pago .boton-pago .inscribirme-btn {
     width: 35%;
     background-color: orangered;
-    color: #261806;
+    color: rgb(38, 24, 6);
     border-color: #D9D7C1;
     margin-top: 10px;
     margin-bottom: 15px;
@@ -409,7 +416,7 @@ h2 {
     width: 80%;
   }
   .container figure .nombre-fig {
-    color: #261806;
+    color: rgb(38, 24, 6);
     margin-top: 5px;
     font-size: 1.6rem;
   }
@@ -538,7 +545,7 @@ html {
 footer {
   display: flex;
   justify-content: center;
-  background-color: #261806;
+  background-color: rgb(38, 24, 6);
   padding-top: 6px;
   padding-bottom: 5px;
 }

@@ -119,6 +119,7 @@ h2{
     margin: auto;
     width: 80%;
     margin-top: 20px;
+    margin-bottom: 20px;
     overflow-y: hidden;
 
 }
@@ -282,15 +283,21 @@ h2{
         }
       
         .inscribirme-btn {
-          width: 35%;
+          width: 50%;
           background-color: orangered;
           color: $mainColor;
           border-color: $keyColor;
           margin-top: 10px;
           margin-bottom: 15px;
-          font-size: $textLg;
+          font-size: $textMd;
         }
       }
+}
+
+.figure-pago{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
 }
 
 
