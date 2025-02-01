@@ -151,8 +151,13 @@ h2 {
   text-shadow: 0.5px 0.5px 0.5px black;
 }
 .accordion .accordion-item div .imagen-certificado {
-  width: 90%;
+  width: 50%;
   margin: auto;
+}
+
+.accordion-body .figure-img {
+  max-width: 70%;
+  height: auto;
 }
 
 .h1-index {
