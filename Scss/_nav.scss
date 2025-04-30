@@ -1,23 +1,41 @@
 .botonera {
-    background-color: $mainColor;
-    margin-top: -20px;
-    img {
-      width: 180px;
-      margin-bottom: -20px;
-      display: block;
+  background-color: $mainColor;
+  margin-top: -20px;
+
+  img {
+    width: 180px;
+    margin-bottom: -20px;
+    display: block;
+  }
+
+  .navbar-brand {
+    overflow: hidden;
+  }
+
+  .nav-link {
+    color: $keyColor;
+    font-size: 1.8rem;
+    margin-right: 20px;
+    padding-top: 20px;
+    text-decoration: none;
+    transition: font-weight 0.15s ease;
+
+    &:hover,
+    &:active {
+      font-weight: bold;
+      color: $keyColor; // fuerza que no cambie en hover ni active
     }
-    .navbar-brand {
-      overflow: hidden;
-    }
-    li {
-      a {
-        color: $keyColor; 
-        font-size: 1.8rem;  
-        margin-right: 20px;
-        padding-top: 20px;
-      }
+
+    &:focus,
+    &:visited {
+      color: $keyColor;
+      background-color: transparent;
+      outline: none;
+      box-shadow: none;
     }
   }
+}
+
     
 .container-fluid button span{
     background-color: $keyColor;

@@ -301,11 +301,23 @@ h2 {
 .botonera .navbar-brand {
   overflow: hidden;
 }
-.botonera li a {
+.botonera .nav-link {
   color: #D9D7C1;
   font-size: 1.8rem;
   margin-right: 20px;
   padding-top: 20px;
+  text-decoration: none;
+  transition: font-weight 0.15s ease;
+}
+.botonera .nav-link:hover, .botonera .nav-link:active {
+  font-weight: bold;
+  color: #D9D7C1;
+}
+.botonera .nav-link:focus, .botonera .nav-link:visited {
+  color: #D9D7C1;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
 }
 
 .container-fluid button span {
